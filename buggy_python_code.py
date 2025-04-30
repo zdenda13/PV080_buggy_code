@@ -62,6 +62,6 @@ if __name__ == '__main__':
         load_yaml(input("File name: "))
         print("Executed -ls on current folder")
     elif choice == "4":
-        password = input("Enter master password: ")
-        authenticate(password)
+        PASSWORD = input("Enter master password: ")
+        authenticate(PASSWORD)
 
